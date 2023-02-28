@@ -1,0 +1,11 @@
+[2023-02-28 08:59:31][[31merror[39m]Error: Error test winston
+    at D:\JavaScript\m4\4.10\winstontrongExpressJs\dist\index.js:15:15
+    at Layer.handle [as handle_request] (D:\JavaScript\m4\4.10\winstontrongExpressJs\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\JavaScript\m4\4.10\winstontrongExpressJs\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\JavaScript\m4\4.10\winstontrongExpressJs\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\JavaScript\m4\4.10\winstontrongExpressJs\node_modules\express\lib\router\layer.js:95:5)
+    at D:\JavaScript\m4\4.10\winstontrongExpressJs\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\JavaScript\m4\4.10\winstontrongExpressJs\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\JavaScript\m4\4.10\winstontrongExpressJs\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\JavaScript\m4\4.10\winstontrongExpressJs\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (D:\JavaScript\m4\4.10\winstontrongExpressJs\node_modules\express\lib\router\layer.js:95:5)}

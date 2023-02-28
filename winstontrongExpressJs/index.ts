@@ -1,0 +1,23 @@
+import express from 'express';
+import bodyParser from "body-parser";
+import {logger} from './src/logger/winston';
+
+
+const PORT = 3000;
+const app = express();
+
+app.use(bodyParser.json());
+
+app.get('/', (req, res) => {
+    try{
+        res.end('<h1>Hello World</h1>')
+        throw new Error('Error test winston');
+    } catch(err) {
+        logger.error(err);
+    }
+})
+
+
+app.listen(PORT, () => {
+    console.log(`app is listening on http://localhost:${PORT}`);
+})
